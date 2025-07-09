@@ -5,6 +5,7 @@ const rpcMatches = ["https://*/*", ...(isDevMode ? ["http://*/*"] : [])]
 
 export const manifest: chrome.runtime.ManifestV3 = {
   manifest_version: 3,
+  key: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtoNvVeYxVVwCxhOOkELylANoKWlvxdDmMljQLFf8sf0gPITXWVbOugySdnfXtEoWfBjy1SmPzVs3I7TDqlVPno9IxbqLpBEyU/FYxJD3mjlWUH5ZiN253ktyC1UlTs+HS6fVD6FbqZzn3xArIGjsvjiIFD3tBZwynYVaT0RAyKUGhC4DRePwPPF2RSNeiik0WaIlaff7kkij/w7Xp71mwzGG6PVAxZYVHMWWt1fRjmBgQevpykqWlFpLJ6pr1OgF/MJbspdNEY4hplj8KAMoIkly/g67zl2E75ObpQ88y74b7UhXaviXqM939bQ8vG56q1v0uyCyQQIgUdYK4nHGSQIDAQAB",
   name: "Pallad",
   description:
     "Discover the Future of Web3 with Pallad. Unlock the power of the world's lightest blockchain 🪶",
