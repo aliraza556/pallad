@@ -40,7 +40,7 @@ export const manifest: chrome.runtime.ManifestV3 = {
   sandbox: {
     pages: ["sandbox.html"],
   },
-  host_permissions: ["https://*/*"],
+  host_permissions: rpcMatches,
   commands: {
     _execute_action: {
       suggested_key: {
